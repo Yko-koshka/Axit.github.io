@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="page description" />
+    <title>Axit</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!----------------- Header ------------------>
+
+    <header class="header">
+      <div class="header-inner">
+        <a class="header-inner__logo" href="#!"
+          ><img src="./img/logo_navbar.png" alt="logo" width="79" height="27"
+        /></a>
+
+        <div class="wrapper">
+          <input type="checkbox" id="check-menu" />
+          <label class="wrapper__label" for="check-menu">Menu</label>
+          <div class="burger-line first"></div>
+          <div class="burger-line second"></div>
+          <div class="burger-line third"></div>
+          <div class="burger-line fourth"></div>
+
+          <nav class="main-menu">
+            <ul class="main-menu__burger">
+              <li class="header-inner__list">
+                <a class="header-inner__link" href="#home">Home</a>
+              </li>
+              <li class="header-inner__list">
+                <a class="header-inner__link" href="#about">About</a>
+              </li>
+              <li class="header-inner__list">
+                <a class="header-inner__link" href="#pricing">Pricing</a>
+              </li>
+              <li class="header-inner__list">
+                <a class="header-inner__link" href="#reviews">Reviews</a>
+              </li>
+              <li class="header-inner__list">
+                <a class="header-inner__link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!----------------- Intro ------------------>
+
+    <section id="home" class="intro">
+      <div class="container">
+        <div class="intro-inner grid">
+          <div class="intro-left">
+            <img
+              class="intro-left__img"
+              src="./img/logo_navbar.png"
+              alt=""
+              width="175"
+              height="60"
+            />
+            <h1 class="intro-left__title">
+              Business Interruption
+            </h1>
+            <p class="intro-left__text">
+              Complete termination of the existence of the legal entity with the
+              preservation of the legality of all previous activities
+            </p>
+            <a class="intro-left__btn" href="#!">Read more</a>
+          </div>
+          <div class="intro-right">
+            <h2 class="intro-right__title">
+              Try Your <span class="intro-right__title-span">FREE</span> Trial
+              Today
+            </h2>
+            <form class="intro-right__form">
+              <input
+                class="intro-right__form-input"
+                type="text"
+                placeholder="Name"
+              />
+              <input
+                class="intro-right__form-input"
+                type="text"
+                placeholder="Email"
+              />
+              <input
+                class="intro-right__form-input"
+                type="text"
+                placeholder="Password"
+              />
+              <button class="intro-right__btn">Get Started</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------- Social ------------------>
+
+    <section id="about" class="social">
+      <div class="container">
+        <div class="social-inner social-inner__grid">
+          <div class="social-madia">
+            <h3 class="social-media__title">Social Media</h3>
+            <p class="social-media__text">
+              We guarantee full professional customer service in the declared
+              areas of activity and confidentiality.
+            </p>
+          </div>
+          <div class="social-icons">
+            <a class="social-icon" href="#"
+              ><i class="fab fa-facebook-f fa-4x icon"></i
+            ></a>
+            <a class="social-icon" href="#"
+              ><i class="fab fa-twitter fa-4x icon"></i
+            ></a>
+            <a class="social-icon" href="#"
+              ><i class="fab fa-google-plus-g fa-4x icon"></i
+            ></a>
+            <a class="social-icon" href="#"
+              ><i class="fab fa-pinterest-p fa-4x icon"></i
+            ></a>
+            <a class="social-icon" href="#"
+              ><i class="fab fa-instagram fa-4x icon"></i
+            ></a>
+            <a class="social-icon" href="#"
+              ><i class="fas fa-wind fa-4x icon"></i
+            ></a>
+            <a class="social-icon" href="#"
+              ><i class="fas fa-wifi fa-4x icon"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------- Catalog ------------------>
+
+    <section class="catalog catalog_bg">
+      <div class="container container_img">
+        <div class="catalog__inner">
+          <ul class="catalog__tabs">
+            <li class="catalog__tab catalog__tab_active">Tab 1</li>
+            <li class="catalog__tab">Tab 2</li>
+            <li class="catalog__tab">Tab 3</li>
+          </ul>
+
+          <div class="catalog__contents">
+            <div class="catalog__content catalog__content_active">
+              <h3 class="catalog__content_title">
+                Bankruptcy and liquidation
+              </h3>
+              <p class="catalog__content_text">
+                Complete termination of the existence of the legal entity with
+                the preservation of the legality of all previous activities
+              </p>
+              <a class="catalog__content_btn" href="#!">Order</a>
+            </div>
+            <div class="catalog__content">
+              <h3 class="catalog__content_title">
+                Legal support.
+              </h3>
+              <p class="catalog__content_text">
+                We guarantee full professional customer service in the declared
+                areas of activity and confidentiality.
+              </p>
+              <a class="catalog__content_btn" href="#!">Order</a>
+            </div>
+            <div class="catalog__content">
+              <h3 class="catalog__content_title">
+                Tax audit
+              </h3>
+              <p class="catalog__content_text">
+                Tax audit is performed before tax audits; when assessing
+                possible tax risks; when optimizing taxation.
+              </p>
+              <a class="catalog__content_btn" href="#!">Order</a>
+            </div>
+          </div>
+        </div>
+        <img class="catalog__img" src="./img/image_right_u.png" alt="house" />
+      </div>
+    </section>
+
+    <!----------------- List ------------------>
+
+    <section class="list">
+      <div class="container">
+        <div class="list-inner grid">
+          <img
+            class="list-inner__img"
+            src="./img/image_left_sub_lis.png"
+            alt="city"
+          />
+          <div class="list-right">
+            <h3 class="list-right__subtitle">Sub list section</h3>
+
+            <p class="list-right__text list-right__text_line">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+              ipsum dolor sit amet.
+            </p>
+            <div class="list-right__icon">
+              <i class="fas fa-cloud-download-alt fa-3x cloud"></i>
+              <div>
+                <h4 class="list-right__subtitle">Text</h4>
+                <p class="list-right__text2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                  ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+
+            <div class="list-right__icon">
+              <i class="fas fa-cloud-download-alt fa-3x cloud"></i>
+              <div>
+                <h4 class="list-right__subtitle">Text</h4>
+                <p class="list-right__text2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                  ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------- Picture ------------------>
+
+    <section class="picture catalog_bg">
+      <div class="container">
+        <div class="picture-inner grid">
+          <div class="picture-right">
+            <h3 class="list-right__subtitle">About company</h3>
+            <p class="list-right__text list-right__text_line">
+              The company specializes in providing services in corporate law,
+              tax consulting, court representation, liquidation and bankruptcy
+              of enterprises. As of today, the company's team consists of highly
+              professional experts specializing in certain areas of law.
+            </p>
+          </div>
+
+          <img
+            class="picture-inner__img"
+            src="./img/image_left_sub_lis.png"
+            alt="city"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!----------------- Awesome ------------------>
+
+    <section class="awesome">
+      <div class="container">
+        <div class="awesome-top">
+          <h4 class="awesome-subtitle">Complex closure of the company</h4>
+          <p class="awesome-text">
+            To date, the company's team of highly professional experts
+            specializing in certain areas of law
+          </p>
+          <p></p>
+        </div>
+
+        <div class="awesome-inner">
+          <div class="awesome-cards">
+            <div class="awesome-card">
+              <img
+                class="awesome-card__img"
+                src="./img/lightning_weather_storm_2781.png"
+                alt="lightning"
+                width="110"
+                height="110"
+              />
+              <h4 class="awesome-card__title">
+                Dozens of voluntary liquidations each month
+              </h4>
+              <p class="awesome-card__text">
+                We are able to minimize all risks in the process of voluntary
+                liquidation of legal entities.
+              </p>
+            </div>
+            <div class="awesome-card">
+              <img
+                class="awesome-card__img"
+                src="./img/keyboard_23726.png"
+                alt="keyboard"
+                width="110"
+                height="110"
+              />
+              <h4 class="awesome-card__title">
+                Excellent knowledge of bankruptcy laws
+              </h4>
+              <p class="awesome-card__text">
+                They allow us to effectively defend both the interests of
+                creditors and the owners of the problem organization.
+              </p>
+            </div>
+            <div class="awesome-card">
+              <img
+                class="awesome-card__img"
+                src="./img/bulb_icon-icons.com_74600.png"
+                alt="bulb"
+                width="110"
+                height="110"
+              />
+              <h4 class="awesome-card__title">
+                Extensive experience in bankruptcy proceedings
+              </h4>
+              <p class="awesome-card__text">
+                We have extensive experience in supporting bankruptcy
+                proceedings.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------- Options ------------------>
+
+    <section id="pricing" class="options catalog_bg">
+      <div class="container">
+        <div class="awesome-top">
+          <h4 class="awesome-subtitle">PRICING OPTIONS</h4>
+          <p class="awesome-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. copy 2
+          </p>
+          <p></p>
+        </div>
+
+        <div class="options-inner grid">
+          <a href="#!" class="card">
+            <div class="card-top card-top_bg">
+              <h4 class="card-top__subtitle">Legal persons service</h4>
+              <span class="card-top__sign">$</span>
+              <span class="card-top__price">0</span>
+              <p class="card-top__text">Free for life</p>
+            </div>
+
+            <div class="card-middle card-middle_bg">
+              <p class="card-middle__popular">OUR MOST POPULAR</p>
+            </div>
+
+            <ul class="card-bottom card-bottom_bg">
+              <li class="card-bottom__list">Support of economic activity</li>
+              <li class="card-bottom__list">Resolving legal issues</li>
+              <li class="card-bottom__list">Oral and written legal advice</li>
+              <li class="card-bottom__list">
+                Development and analysis of contracts
+              </li>
+              <li class="card-bottom__list">
+                Preparation of internal legal documents
+              </li>
+              <li class="card-bottom__list">Other services</li>
+            </ul>
+          </a>
+          <a href="#!" class="card">
+            <div class="card-top card-top_bg">
+              <h4 class="card-top__subtitle">Registration services</h4>
+              <span class="card-top__sign">$</span>
+              <span class="card-top__price">1</span>
+              <span class="card-top__price">9</span>
+              <p class="card-top__text">Monthly Payment</p>
+            </div>
+
+            <div class="card-middle card-middle_bg">
+              <p class="card-middle__popular">OUR MOST POPULAR</p>
+            </div>
+
+            <ul class="card-bottom card-bottom_bg">
+              <li class="card-bottom__list">
+                Preparation of constituent documents
+              </li>
+              <li class="card-bottom__list">
+                Preparation of the decision of the general meeting
+              </li>
+              <li class="card-bottom__list">
+                Filling in the registration application
+              </li>
+              <li class="card-bottom__list">Accompaniment by a notary</li>
+              <li class="card-bottom__list">Other services</li>
+              <li class="card-bottom__list">Receipt of an extract</li>
+            </ul>
+          </a>
+          <a href="#!" class="card">
+            <div class="card-top card-top_bg">
+              <h4 class="card-top__subtitle">
+                Disputes with credit
+              </h4>
+              <span class="card-top__sign">$</span>
+              <span class="card-top__price">7</span>
+              <span class="card-top__price">0</span>
+              <p class="card-top__text">Monthly Payment</p>
+            </div>
+
+            <div class="card-middle card-middle_bg">
+              <p class="card-middle__popular">OUR MOST POPULAR</p>
+            </div>
+
+            <ul class="card-bottom card-bottom_bg">
+              <li class="card-bottom__list">Contract law</li>
+              <li class="card-bottom__list">conclusion of the contract</li>
+              <li class="card-bottom__list">
+                Collection of insurance indemnity
+              </li>
+              <li class="card-bottom__list">Reduction of interest and debt</li>
+              <li class="card-bottom__list">
+                Invalidation of the surety agreement
+              </li>
+              <li class="card-bottom__list">Other services</li>
+            </ul>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!----------------- Testimonials ------------------>
+
+    <section id="reviews" class="testimonials">
+      <div class="container">
+        <div class="awesome-top">
+          <h4 class="awesome-subtitle">WHAT OUR CUSTOMERS ARE SAYING</h4>
+          <p class="awesome-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. copy
+          </p>
+          <p></p>
+        </div>
+
+        <div class="testimonials-inner grid">
+          <div class="testimonial">
+            <p class="testimonial__text testimonial__text_bg">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolo
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolo
+            </p>
+            <div class="testimonial-customer">
+              <img
+                class="testimonial-customer__avatar"
+                src="./img/avatar1.jpg"
+                alt="avatar"
+              />
+              <p class="testimonial-customer__nik">
+                <b class="testimonial-customer__name">Jeremy H.</b><br />Manager
+              </p>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p class="testimonial__text testimonial__text_bg">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolo
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolo
+            </p>
+            <div class="testimonial-customer">
+              <img
+                class="testimonial-customer__avatar"
+                src="./img/avatar2.jpg"
+                alt="avatar"
+              />
+              <p class="testimonial-customer__nik">
+                <b class="testimonial-customer__name">Jeremy H.</b><br />Manager
+              </p>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p class="testimonial__text testimonial__text_bg">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolo
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolo
+            </p>
+            <div class="testimonial-customer">
+              <img
+                class="testimonial-customer__avatar"
+                src="./img/avatar3.jpg"
+                alt="avatar"
+              />
+              <p class="testimonial-customer__nik">
+                <b class="testimonial-customer__name">Jeremy H.</b><br />Manager
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------- Design ------------------>
+
+    <section class="design">
+      <div class="container">
+        <div class="awesome-top awesome-top_disign">
+          <h4 class="awesome-subtitle awesome-subtitle_disign">
+            Company News
+          </h4>
+          <p class="awesome-text awesome-text_disign">
+            An integrated approach to your issue, modern legal assistance,
+            representation in all courts.
+          </p>
+          <p>
+            <a class="intro-left__btn" href="#!">Read more</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="form">
+      <div class="container">
+        <div class="awesome-top">
+          <h4 class="awesome-subtitle">WHAT OUR CUSTOMERS ARE SAYING</h4>
+          <p class="awesome-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. copy
+          </p>
+        </div>
+
+        <div class="contacts grid">
+          <form class="contacts-left__form">
+            <input
+              class="contacts-left__form-input"
+              type="text"
+              placeholder="Name"
+            />
+            <input
+              class="contacts-left__form-input"
+              type="text"
+              placeholder="Email"
+            />
+            <input
+              class="contacts-left__form-input"
+              type="text"
+              placeholder="Subject"
+            />
+          </form>
+          <form class="contacts-right__form">
+            <textarea
+              class="contacts-right__form-textarea"
+              placeholder="Message"
+            ></textarea>
+          </form>
+        </div>
+        <a class="catalog__content_btn catalog__content_btn-footer" href="#!"
+          >Send Message</a
+        >
+      </div>
+    </section>
+
+    <!----------------- Footer ------------------>
+
+    <footer id="contact" class="footer">
+      <div class="footer__icon">
+        <a class="footer__icon-link" href="#!"
+          ><i class="fab fa-facebook-f fa-2x icon-footer"></i
+        ></a>
+        <a class="footer__icon-link" href="#!"
+          ><i class="fab fa-twitter fa-2x icon-footer"></i
+        ></a>
+        <a class="footer__icon-link" href="#!"
+          ><i class="fab fa-google-plus-g fa-2x icon-footer"></i
+        ></a>
+        <a class="footer__icon-link" href="#!"
+          ><i class="fab fa-pinterest-p fa-2x icon-footer"></i
+        ></a>
+        <a class="footer__icon-link" href="#!"
+          ><i class="fab fa-instagram fa-2x icon-footer"></i
+        ></a>
+        <a class="footer__icon-link" href="#!"
+          ><i class="fas fa-wind fa-2x icon-footer"></i
+        ></a>
+        <a class="footer__icon-link" href="#!"
+          ><i class="fas fa-wifi fa-2x icon-footer"></i
+        ></a>
+        <p class="footer__text">© AXIT company</p>
+      </div>
+    </footer>
+
+    <!--------------Script ------------------>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
